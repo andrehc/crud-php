@@ -16,8 +16,16 @@
 				echo '<td>'.$linha['data_nascimento'].'</td>';
 			?>
 
-			<td><a href="?pagina=inserir_aluno&editar=<?php echo $linha['id_aluno']; ?>">Editar</a></td>
-			<td><a href="deleta_aluno.php?id_aluno=<?php echo $linha['id_aluno']; ?>">Deletar</a></td></tr>
+			<td>
+				<a href="?pagina=inserir_aluno&editar=<?php echo $linha['id_aluno']; ?>">
+					<span style="color: #44b874;"><i class="fas fa-user-edit"></i></span>
+				</a>
+			</td>
+			<td>
+				<a href="deleta_aluno.php?id_aluno=<?php echo $linha['id_aluno']; ?>">
+					<span style="color: #44b874;"><i class="fas fa-user-slash"></i></span>
+				</a>
+			</td></tr>
 
 		<?php
 			}

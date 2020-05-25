@@ -15,7 +15,11 @@
 				echo '<tr><td >'.$linha['nome_aluno'].'</td>';
 				echo '<td>'.$linha['nome_curso'].'</td>';
 		?>
-			<td><a href="deleta_matricula.php?id_aluno_curso=<?php echo $linha['id_aluno_curso']; ?>">Deletar</a></td></tr>
+			<td>
+				<a href="deleta_matricula.php?id_aluno_curso=<?php echo $linha['id_aluno_curso']; ?>">
+				<span style="color: #44b874;"><i class="fas fa-trash"></i></span>
+			</a>
+		</td></tr>
 		<?php		
 			}
 

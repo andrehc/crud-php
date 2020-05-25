@@ -6,6 +6,7 @@
 	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+	<script src="https://kit.fontawesome.com/c2bd86fcef.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/estilo.css">
 
 </head>
